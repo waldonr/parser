@@ -23,6 +23,7 @@ Argparse - обработка аргументов командной строк
   Linux/Mac
     python3 -m venv venv
     source venv/bin/activate
+    
   Установите зависимости:
   
   pip install -r requirements.txt
@@ -50,3 +51,5 @@ Argparse - обработка аргументов командной строк
   
   Подробный вывод:
   python main.py --pages 2 --verbose
+# Пример вывода
+  После выполнения скрипта в папке output/ будут созданы CSV файлы:
