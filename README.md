@@ -26,7 +26,7 @@ Argparse - обработка аргументов командной строк
     
   Установите зависимости:
   
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 # Использование
