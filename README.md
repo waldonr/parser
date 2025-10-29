@@ -10,19 +10,19 @@ Argparse - обработка аргументов командной строк
 
 
 # Установка
-  Клонируйте репозиторий:
+  # Клонируйте репозиторий:
   
-  git clone https://github.com/waldonr/book-parser.git
-  cd book-parser
+    git clone https://github.com/waldonr/book-parser.git
+    cd book-parser
   
-  Создайте виртуальное окружение:
-  # Windows:
-    python -m venv venv
-    venv\Scripts\activate
-  
-  # Linux/Mac:
-    python3 -m venv venv
-    source venv/bin/activate
+  # Создайте виртуальное окружение:
+    # Windows:
+      python -m venv venv
+      venv\Scripts\activate
+    
+    # Linux/Mac:
+      python3 -m venv venv
+      source venv/bin/activate
     
   Установите зависимости:
   
