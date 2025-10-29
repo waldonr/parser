@@ -10,12 +10,12 @@ Argparse - обработка аргументов командной строк
 
 
 # Установка
-  Клонируйте репозиторий
+  Клонируйте репозиторий:
   
   git clone https://github.com/waldonr/book-parser.git
   cd book-parser
   
-  Создайте виртуальное окружение
+  Создайте виртуальное окружение:
   Windows
   python -m venv venv
   venv\Scripts\activate
@@ -23,30 +23,30 @@ Argparse - обработка аргументов командной строк
   Linux/Mac
   python3 -m venv venv
   source venv/bin/activate
-  Установите зависимости
+  Установите зависимости:
   
   pip install -r requirements.txt
 
 
 # Использование
-  Базовое использование
+  Базовое использование:
   
-  Парсинг 2 страниц (по умолчанию)
+  Парсинг 2 страниц (по умолчанию):
   python main.py
   
-  Парсинг 5 страниц
+  Парсинг 5 страниц:
   python main.py --pages 5
   
-  Сохранение в указанный файл
+  Сохранение в указанный файл:
   python main.py --output my_books.csv --pages 3
 
 # Расширенные параметры
 
-  Парсинг всех страниц
+  Парсинг всех страниц:
   python main.py --pages all
   
-  Только первая страница (быстрый тест)
+  Только первая страница (быстрый тест):
   python main.py --pages 1
   
-  Подробный вывод
+  Подробный вывод:
   python main.py --pages 2 --verbose
