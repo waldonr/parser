@@ -57,3 +57,11 @@ Argparse - обработка аргументов командной строк
   
     title,price,availability,rating,description,upc,image_url,book_url
     "A Light in the Attic","£51.77","In stock",3,"A collection of...","a897fe39b1053632","http://...","http://..."
+
+# Логирование
+  Приложение создает подробные логи в файле parser.log:
+
+    2024-01-15 10:30:45 - INFO - Запуск парсера...
+    2024-01-15 10:30:46 - INFO - Обработка страницы 1/2
+    2024-01-15 10:30:47 - INFO - Успешно спарсена: A Light in the Attic
+  
