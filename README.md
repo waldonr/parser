@@ -17,12 +17,12 @@ Argparse - обработка аргументов командной строк
   
   Создайте виртуальное окружение:
   Windows
-  python -m venv venv
-  venv\Scripts\activate
+    python -m venv venv
+    venv\Scripts\activate
   
   Linux/Mac
-  python3 -m venv venv
-  source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
   Установите зависимости:
   
   pip install -r requirements.txt
