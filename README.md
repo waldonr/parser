@@ -10,17 +10,18 @@ Argparse - обработка аргументов командной строк
 
 
 # Установка
-  # Клонируйте репозиторий:
+  Клонируйте репозиторий:
   
     git clone https://github.com/waldonr/book-parser.git
     cd book-parser
   
-  # Создайте виртуальное окружение:
-    # Windows:
+  Создайте виртуальное окружение:
+  
+      Windows:
       python -m venv venv
       venv\Scripts\activate
     
-    # Linux/Mac:
+      Linux/Mac:
       python3 -m venv venv
       source venv/bin/activate
     
@@ -32,24 +33,27 @@ Argparse - обработка аргументов командной строк
 # Использование
   Базовое использование:
   
-  Парсинг 2 страниц (по умолчанию):
-  python main.py
-  
-  Парсинг 5 страниц:
-  python main.py --pages 5
-  
-  Сохранение в указанный файл:
-  python main.py --output my_books.csv --pages 3
+    Парсинг 2 страниц (по умолчанию):
+    python main.py
+    
+    Парсинг 5 страниц:
+    python main.py --pages 5
+    
+    Сохранение в указанный файл:
+    python main.py --output my_books.csv --pages 3
 
 # Расширенные параметры
 
-  Парсинг всех страниц:
-  python main.py --pages all
-  
-  Только первая страница (быстрый тест):
-  python main.py --pages 1
-  
-  Подробный вывод:
-  python main.py --pages 2 --verbose
+    Парсинг всех страниц:
+    python main.py --pages all
+    
+    Только первая страница (быстрый тест):
+    python main.py --pages 1
+    
+    Подробный вывод:
+    python main.py --pages 2 --verbose
 # Пример вывода
-  После выполнения скрипта в папке output/ будут созданы CSV файлы:
+  После выполнения скрипта в папке output/ будут созданы CSV файлы
+  
+    title,price,availability,rating,description,upc,image_url,book_url
+    "A Light in the Attic","£51.77","In stock",3,"A collection of...","a897fe39b1053632","http://...","http://..."
